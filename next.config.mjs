@@ -10,6 +10,7 @@ const nextConfig = {
         hostname: "images.pexels.com",
       },
     ],
+    formats:['image/webp']
   },
 };
 
