@@ -89,22 +89,22 @@ const Navbar = () => {
 
       <div className="hidden md:flex gap-4 w-1/3">
         <Link href="#">
-          <Image src="/github.png" alt="" width={24} height={24} />
+          <Image src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709409301/dinirudev_portfolio/twzymxetqsvoqv15cebc.png" alt="" width={24} height={24} />
         </Link>
         <Link href="#">
-          <Image src="/dribbble.png" alt="" width={24} height={24} />
+          <Image src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709409300/dinirudev_portfolio/cpgaobicc3uyvclq5hk7.png" alt="" width={24} height={24} />
         </Link>
         <Link href="#">
-          <Image src="/instagram.png" alt="" width={24} height={24} />
+          <Image src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709409301/dinirudev_portfolio/dim3upnhta0d51htwlzx.png" alt="" width={24} height={24} />
         </Link>
         <Link href="#">
-          <Image src="/facebook.png" alt="" width={24} height={24} />
+          <Image src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709409301/dinirudev_portfolio/uxukioxvba5vd0vpjzt4.png" alt="" width={24} height={24} />
         </Link>
         <Link href="#">
-          <Image src="/pinterest.png" alt="" width={24} height={24} />
+          <Image src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709409301/dinirudev_portfolio/lns7jxpf3ne0aetihmyr.png" alt="" width={24} height={24} />
         </Link>
         <Link href="#">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
+          <Image src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709409301/dinirudev_portfolio/w61nm6j7stxhpqpmuuo4.png" alt="" width={24} height={24} />
         </Link>
       </div>
       <div className="md:hidden">
