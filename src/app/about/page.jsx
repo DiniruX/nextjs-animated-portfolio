@@ -186,7 +186,7 @@ const AboutPage = () => {
                     Associate Software Engineer - FullStack
                   </div>
                   <div className="p-3 text-sm italic">
-                    Not better than the previous one!
+                    Perfect exposure of working with local client and a wide range of projects.
                   </div>
                   <div className="p-3 text-red-400 text-sm font-semibold">
                     2023-Oct - Present
