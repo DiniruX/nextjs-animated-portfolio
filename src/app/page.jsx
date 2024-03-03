@@ -21,10 +21,10 @@ const Homepage = () => {
           />
         </div>
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center pt-10">
-          <h1 className="text-3xl md:text-5xl font-bold">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold">
             Innovate, Integrate, Iterate: Building Tomorrow's Technology Today.
           </h1>
-          <p className="md:text-xl">
+          <p className=" text-lg sm:text-xl md:text-xl text-justify">
             Welcome to my online showcase! Prepare to be inspired as we delve
             into the world of software development and design. My portfolio
             showcases a diverse collection of projects that reflect my
