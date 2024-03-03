@@ -36,7 +36,7 @@ const PortfolioPage = () => {
       title: "TrainGo Ticket Booking",
       desc: "TrainGo was developed based on a final year assignment which we were assigned to. Through this mobile application, users are able to search their train and book seats. More easily and More efficiently.",
       img: "https://res.cloudinary.com/dtec5px2c/image/upload/v1709485650/dinirudev_portfolio/yogc9o00jm56g7ppqq3s.png",
-      link: "https://lama.dev",
+      link: "#",
     },
   ];
 

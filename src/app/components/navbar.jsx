@@ -88,22 +88,22 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="#">
+        <Link href="https://github.com/DiniruX">
           <Image src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709409301/dinirudev_portfolio/twzymxetqsvoqv15cebc.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="#">
+        <Link href="https://dribbble.com/DiniruX">
           <Image src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709409300/dinirudev_portfolio/cpgaobicc3uyvclq5hk7.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="#">
+        <Link href="https://www.instagram.com/_.diniru.sandipa._/">
           <Image src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709409301/dinirudev_portfolio/dim3upnhta0d51htwlzx.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="#">
+        <Link href="https://www.facebook.com/dinura.sandipa/">
           <Image src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709409301/dinirudev_portfolio/uxukioxvba5vd0vpjzt4.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="#">
+        <Link href="https://www.pinterest.com.au/dinurasandipa/">
           <Image src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709409301/dinirudev_portfolio/lns7jxpf3ne0aetihmyr.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="#">
+        <Link href="https://www.linkedin.com/in/dinirusandipa00/">
           <Image src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709409301/dinirudev_portfolio/w61nm6j7stxhpqpmuuo4.png" alt="" width={24} height={24} />
         </Link>
       </div>
