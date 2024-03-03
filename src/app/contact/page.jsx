@@ -40,7 +40,7 @@ const ContactPage = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-full overflow-scroll flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 pb-8">
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
+        <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-5xl sm:text-6xl">
           <div>
             {text.split("").map((letter, index) => (
               <motion.span
@@ -59,7 +59,7 @@ const ContactPage = () => {
             😊
           </div>
         </div>
-        <form className="h-1/2 lg:h-full lg:w-1/2 bg-white rounded-xl text-xl flex flex-col gap-8 justify-center p-8 sm:p-12 md:p-16 lg:p-12 xl:p-24 " ref={form} onSubmit={sendEmail}>
+        <form className="h-1/2 lg:h-full lg:w-1/2 bg-white rounded-xl text-md sm:text-xl flex flex-col gap-8 justify-center p-8 sm:p-12 md:p-16 lg:p-12 xl:p-24 " ref={form} onSubmit={sendEmail}>
           <span>Dear Diniru Dev,</span>
           <textarea
             className="bg-transparent border-b-2 border-b-gray-300 outline-none resize-none"
@@ -73,7 +73,7 @@ const ContactPage = () => {
             name="user_email"
           />
           <span>Regards</span>
-          <button className="bg-purple-300 rounded font-semibold text-gray-600 p-4">
+          <button className="bg-purple-300 rounded font-semibold text-gray-600 p-2 text-md sm:p-3">
             Send
           </button>
           {success && <span className="text-green-600 font-semibold">Your message has be sent successfully!</span>}

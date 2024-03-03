@@ -9,32 +9,32 @@ const PortfolioPage = () => {
     {
       id: 1,
       color: "from-red-300 to-blue-300",
-      title: "React Commerce",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-      img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      link: "https://lama.dev",
+      title: "IIHE Official Website",
+      desc: "IIHE is a leading university in Sri Lanka. They wanted to give a new look for their official website and we had to redesign the official website of IIHE university Sri Lanka and we had to redesign and complete it using proper technology stack from the scratch.",
+      img: "https://res.cloudinary.com/dtec5px2c/image/upload/v1709453171/dinirudev_portfolio/evbzkyomo0zbrqklowlx.png",
+      link: "https://iihe.lk/",
     },
     {
       id: 2,
       color: "from-blue-300 to-violet-300",
-      title: "Next.js Medium Blog",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-      img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      link: "https://lama.dev",
+      title: "AsianMirror News",
+      desc: "AsianMirror is a daily news website developed using WordPress. We had to improve few function while improving the user experience. Throughout this project, I had a great exposure to WordPress development",
+      img: "https://res.cloudinary.com/dtec5px2c/image/upload/v1709463849/dinirudev_portfolio/ri8w9ivmyhwr2ylq9ktu.png",
+      link: "https://www.asianmirror.lk/",
     },
     {
       id: 3,
       color: "from-violet-300 to-purple-300",
-      title: "Vanilla Book App",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+      title: "HappyKid Mobile App",
+      desc: "This app, I developed to treat primary school ADHD children. This was the research application I did for my final year research. Throughout this application, I had the perfect exposure to AI and ML.",
       img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      link: "https://lama.dev",
+      link: "https://adhdsupportapp.netlify.app/",
     },
     {
       id: 4,
       color: "from-purple-300 to-red-300",
-      title: "Spotify Music App",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+      title: "TrainGo Ticket Booking",
+      desc: "TrainGo was developed based on a final year assignment which we were assigned to. Through this mobile application, users are able to search their train and book seats. More easily and More efficiently.",
       img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       link: "https://lama.dev",
     },
@@ -69,10 +69,10 @@ const PortfolioPage = () => {
                   <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
                     {item.title}
                   </h1>
-                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
+                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[800px] xl:h-[420px]">
                     <Image src={item.img} alt="" fill />
                   </div>
-                  <p className="w-80 md:w-96 lg:w-[500px] lg:text-lg xl:w-[600px]">
+                  <p className="w-80 md:w-96 lg:w-[500px] lg:text-lg xl:w-[800px] text-justify">
                     {item.desc}
                   </p>
                   <Link className="flex justify-end" href={item.link}>
@@ -109,7 +109,7 @@ const PortfolioPage = () => {
           </motion.svg>
           <Link
             href="/contact"
-            className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center"
+            className="w-20 h-20 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center"
           >
             Hire Me
           </Link>
