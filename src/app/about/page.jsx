@@ -48,6 +48,7 @@ const AboutPage = () => {
                 width={100}
                 alt=""
               />
+              
             </div>
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
@@ -225,7 +226,7 @@ const AboutPage = () => {
                 </div>
               </div>
               <div className="pt-10">
-                <Link href="#" className="">
+                <Link href="https://drive.google.com/file/d/1FRgl7lgSI6sK56ijQv3_xLYHYSPRQYPZ/view?usp=sharing" className="">
                   <button className="bg-gray-500 text-white rounded p-4">
                     My Resume
                   </button>
