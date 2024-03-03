@@ -46,6 +46,7 @@ const AboutPage = () => {
                 src="https://res.cloudinary.com/dtec5px2c/image/upload/v1709449107/dinirudev_portfolio/hxndvwijzp6kfgdjstfb.png"
                 height={50}
                 width={100}
+                alt=""
               />
             </div>
             {/* BIOGRAPHY SCROLL SVG */}
