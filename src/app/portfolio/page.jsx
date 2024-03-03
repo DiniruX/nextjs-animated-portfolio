@@ -27,7 +27,7 @@ const PortfolioPage = () => {
       color: "from-violet-300 to-purple-300",
       title: "HappyKid Mobile App",
       desc: "This app, I developed to treat primary school ADHD children. This was the research application I did for my final year research. Throughout this application, I had the perfect exposure to AI and ML.",
-      img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+      img: "https://res.cloudinary.com/dtec5px2c/image/upload/v1709486215/dinirudev_portfolio/syjhhmu59kndgrqrpjzs.png",
       link: "https://adhdsupportapp.netlify.app/",
     },
     {
@@ -35,7 +35,7 @@ const PortfolioPage = () => {
       color: "from-purple-300 to-red-300",
       title: "TrainGo Ticket Booking",
       desc: "TrainGo was developed based on a final year assignment which we were assigned to. Through this mobile application, users are able to search their train and book seats. More easily and More efficiently.",
-      img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: "https://res.cloudinary.com/dtec5px2c/image/upload/v1709485650/dinirudev_portfolio/yogc9o00jm56g7ppqq3s.png",
       link: "https://lama.dev",
     },
   ];
@@ -53,7 +53,7 @@ const PortfolioPage = () => {
     >
       <div className="h-[600vh] relative" ref={ref}>
         <div className="w-full h-[calc(100vh-6rem)] flex items-center justify-center text-6xl sm:text-7xl lg:text-8xl text-center">
-          My Works
+          My Work
         </div>
         <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden">
           <motion.div style={{ x }} className="flex">
@@ -66,17 +66,17 @@ const PortfolioPage = () => {
                 key={item.id}
               >
                 <div className="flex flex-col gap-8 text-white">
-                  <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
+                  <h1 className="text-3xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
                     {item.title}
                   </h1>
-                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[800px] xl:h-[420px]">
+                  <div className="relative w-80 h-56 md:w-96 md:h-54 lg:w-[500px] lg:h-[281px] xl:w-[800px] xl:h-[450px]">
                     <Image src={item.img} alt="" fill />
                   </div>
                   <p className="w-80 md:w-96 lg:w-[500px] lg:text-lg xl:w-[800px] text-justify">
                     {item.desc}
                   </p>
                   <Link className="flex justify-end" href={item.link}>
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold rounded m-4">
+                    <button className="p-2 text-sm md:p-4 md:text-md lg:px-8 lg:text-lg bg-white text-gray-600 font-semibold rounded-lg m-4">
                       See Demo
                     </button>
                   </Link>
