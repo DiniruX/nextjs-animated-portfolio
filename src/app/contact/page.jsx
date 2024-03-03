@@ -39,7 +39,7 @@ const ContactPage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+      <div className="h-full overflow-scroll flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 pb-8">
         <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
           <div>
             {text.split("").map((letter, index) => (
@@ -59,21 +59,21 @@ const ContactPage = () => {
             😊
           </div>
         </div>
-        <form className="h-1/2 lg:h-full lg:w-1/2 bg-white rounded-xl text-xl flex flex-col gap-8 justify-center p-24" ref={form} onSubmit={sendEmail}>
-          <span>Dead Diniru Dev,</span>
+        <form className="h-1/2 lg:h-full lg:w-1/2 bg-white rounded-xl text-xl flex flex-col gap-8 justify-center p-8 sm:p-12 md:p-16 lg:p-12 xl:p-24 " ref={form} onSubmit={sendEmail}>
+          <span>Dear Diniru Dev,</span>
           <textarea
-            className="bg-transparent border-b-2 border-b-black outline-none resize-none"
-            rows={6}
+            className="bg-transparent border-b-2 border-b-gray-300 outline-none resize-none"
+            rows={4}
             name="message"
           />
-          <span>My mail address is, </span>
+          <span>My e-mail address is, </span>
           <input
-            className="bg-transparent border-b-2 border-b-black outline-none"
+            className="bg-transparent border-b-2 border-b-gray-300 outline-none"
             type="email"
             name="user_email"
           />
           <span>Regards</span>
-          <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">
+          <button className="bg-purple-300 rounded font-semibold text-gray-600 p-4">
             Send
           </button>
           {success && <span className="text-green-600 font-semibold">Your message has be sent successfully!</span>}
