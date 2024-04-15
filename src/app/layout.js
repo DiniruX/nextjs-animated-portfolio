@@ -13,6 +13,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-XELY4BYTNT"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-XELY4BYTNT');
+        </script>
+      </head>
       <body className={inter.className}>
         <TransitionProvider>{children}</TransitionProvider>
       </body>
